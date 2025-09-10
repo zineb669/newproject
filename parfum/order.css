@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+:root{
+    --babypink:rgb(249,240,242);
+    --beige:rgb(248,241,231);
+    --marron:rgb(232,217,201);
+    --pink:rgb(163,141,120);
+    --pinkk:rgb(249,237,237);
+    --be:rgb(254,251,242);
+    --pi:rgb(244,235,238);
+    --brown:rgb(129,105,97)
+  
+}
+img{
+  padding: 20px;
+  margin: 30px;
+}
+
+h2{
+  color:#D4AF37;
+  font-size:55px;
+   font-family: 'Italianno', cursive;
+   font-weight: 150 ;
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+nav{
+   display: flex;
+  gap:20px;
+align-items: center;
+background-color:var(--pinkk);
+
+
+  z-index: 1000;
+   width: 100%;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 70px;
+ text-decoration: none;
+  position: relative;
+  width: 50px;
+
+}
+ul li a{
+  color:#D4AF37;
+  font-size:large;
+  text-decoration: none;
+  position: relative;
+  left:600px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background:white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid white;
+        height: 30px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+      font-size: 13px; 
+    outline: none;
+    width: 180px;
+}
+
+.search-bar button {
+    border: none;
+    background:white;
+    cursor: pointer;
+    padding: 5px 10px;
+        font-size: 13px;
+}
+
+
+
+
+
+ section {
+  display: flex;
+  text-decoration: none;
+  border: 2px solid var(--marron);
+  border-radius: 10px;
+  margin: 50px;
+height: 600px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.2s;
+  }
+  @keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.offers{
+  background-color:var(--beige);
+  border: 1px solid --marron;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  margin: 40px;
+    position: relative;
+  top: -70px;
+  /* move it upward to overlap the section above */
+  z-index: 10;
+  height: 480px;
+  
+}
+
+h3{
+  color: var(--brown);
+  padding-left: 10px;
+}
+.offers li {
+  margin-bottom: 40px;
+  text-align: center;
+    list-style-type: none;
+
+
+}
+form h1 {
+  color: var(--brown);
+  margin-bottom: 20px;
+  text-align: center;
+}
+form h1 {
+  animation: blink-effect 2s infinite;
+}
+
+@keyframes blink-effect {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.icon{
+font-size: 20px;
+}
+
+p{
+  font-size:small;
+}
+.order-form{
+  flex: 1;
+  max-width: 100%;
+ padding: 30px;
+ 
+}
+label{
+  font-size:23px;
+margin-bottom: 7px; /* space under the label */
+  display: block; 
+color: ;
+}
+
+input{
+  width: 100%;
+  font-size:medium;
+  border-radius: 5px;
+  padding: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ input:hover {
+  transform: scale(1.07); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  
+}
+select{
+  border: 1px solid ;
+   width: 100%;
+  font-size:medium;
+  border-radius: 5px;
+  padding: 7px;
+}
+option{
+  font-size: 14px;
+  color:black;
+  background-color:var(--babypink);
+}
+button{
+ padding: 10px;
+ border-radius: 20px;
+ border: 1px solid var(--pinkk);
+ background-color:var(--pinkk);
+ cursor: pointer;
+ 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+ button:hover {
+ transform: scale(1.07); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#bu{
+ align-items:;
+   padding: 10px;
+ border-radius: 20px;
+ border: 1px solid var(--pinkk);
+ background-color:var(--pinkk);
+ cursor: pointer;
+}
+
+  h4{
+  font-family:'Italianno', cursive ;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+footer{
+  background-color:var(--beige);
+  padding: 0;
+  margin: 0;
+
+}
+p{
+  text-align: center;
+  ont-family: 'Cormorant Garamond', serif;
+  font-size: x-large;
+}
+.PP{
+  font-size:15px;
+   margin-top: 20px;
+  padding-bottom: 15px;
+  }
+   h4{
+  font-family:'Italianno', cursive ;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+  .icons{
+    text-align: center;
+  padding-bottom: 10px;
+  }
+  .icons a{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+      margin: 0 10px;
+  
+  }
+ 
